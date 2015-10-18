@@ -1,0 +1,57 @@
+#chassis{
+    width: 400px;
+    height: 500px;
+    background-color:darkgrey;
+    margin: 0px auto;
+    text-align: left;
+    font-family: 'Orbitron', sans-serif;
+    font-color: #193441;
+    box-shadow: 2px 2px 5px;
+    border-radius: 1px;
+}
+
+#result{
+    width: 360px;
+    height: 60px;
+    background-color:azure;
+    margin: 5px 20px 10px 20px;
+    padding: 5px;
+    text-align: right;
+    float:right;
+    font-size: 3em;
+    border: 4px inset;
+    overflow: hidden;
+}
+
+#label{
+    margin: 10px 20px 5px 20px;
+    float: right;
+  
+    font-size: 1.5em;
+}
+
+#buttons{
+    margin: 10px 40px 10px 40px;
+}
+
+.operation {
+    background-color:#D1DBBD;
+}
+
+.row{
+    margin: 20px 5px 20px 5px;
+    font-size: 2em;
+}
+
+button{
+    width: 80px;
+    height: 55px;
+    background-color: #91AA9D;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 3px;
+}
+
+button:focus{
+    border: 2px solid white;
+}
